@@ -30,6 +30,8 @@ setwd("online-survey-MCDA-package/data") #set the the working directory where pT
 write.csv(pT, file="pT.csv", sep=",")
 
 #generate 25 profile graphics as pictures, so they can be used in a html/php script
+#25 profiles are already created in the folder "images", the following script will replace them
+#If it doesn't change the images, check the folder writing permission
 setwd("online-survey-MCDA-package/images") #set the the working directory where the pictures will be saved
 for(i in 1:25) {
   name<-paste("profile",i,sep="_")
