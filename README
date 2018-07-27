@@ -3,9 +3,9 @@ online-survey-MCDA-package
 --------
 
 online-survey-MCDA-package is a 1 month internship
-project which goal was to create an online survey
+project whose goal was to create an online survey
 following the procedure of the MCDA package
-and using mostly PhP.
+and using PhP.
 
 online-survey-MCDA-package is copyrighted by Thomas Baglan (first year student
 and intern in the engineering school IMT Atlantique in July 2018)
@@ -21,21 +21,21 @@ process involving multiple, conflicting criteria.
 
 --------
 
-This package is not complete at all since it doesn't follow
+This package is not complete since it does not follow
 the complete procedure of the MCDA package (described in
 exampleFLOSS.R in the MCDA package).
 
 There was a problem loading the MCDA library using PhP function exec()
-which explains why there is not more than the "assignments" step of the procedure.
-Apparently PhP couldn't access every R library's folder (particularly the
-one with the MCDA package) and time was missing to solve the problem.
+which explains why the procedure ends at the "assignments" step.
+Apparently PhP was not able to access all R library folders (particularly the
+one with the MCDA package) and the problem was not resolved for lack of time.
 
 Some other solutions have been tried : 
 
 	-Using opensource online survey tool such as Limesurvey or phpESP
 	-Using the library R-php from Angelo M. Mineo and Alfredo Pontillo
 
-without success.
+These were however not successful.
 
-For all intents and purposes, onlove-survey-MCDA-package was implemented on 
+For all intents and purposes, online-survey-MCDA-package was implemented on 
 a local Apache2 server using PhP 7.2, mySQL, phpmyadmin.
